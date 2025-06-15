@@ -71,12 +71,13 @@ Build a personal learning project that demonstrates AI/ML skills while creating 
 - **API Development:** FastAPI and backend architecture
 
 #### Person 2 Focus Areas:
-- **Modern Frontend:** React with modern patterns and tools
-- **AI/ML Integration:** Frontend integration with ML APIs
-- **UX for AI Systems:** Designing interfaces for AI interactions
-- **Full-Stack Integration:** Frontend-backend coordination
-- **Framework Integration:** Frontend components for both custom and framework backends
-- **Deployment:** Getting hybrid systems live and accessible
+- **Streamlit Development:** Rapid AI application prototyping
+- **Data Visualization:** Streamlit charts and display components
+- **AI/ML Integration:** Streamlit integration with ML APIs
+- **UX for AI Systems:** Designing interfaces for AI interactions within Streamlit constraints
+- **Full-Stack Integration:** Streamlit-backend coordination
+- **Advanced Frontend Planning:** Research React/Next.js for Phase 2
+- **Deployment:** Getting Streamlit applications live and accessible
 
 ### 3.2 Shared Learning Goals
 
@@ -109,14 +110,14 @@ Build a personal learning project that demonstrates AI/ML skills while creating 
 - **Phase 3:** Document performance and maintainability comparison
 - Demonstrate relationship traversal and context expansion with both approaches
 
-#### F-003: Clean Web Interface
-**Learning Focus:** Modern frontend development for AI systems  
+#### F-003: Streamlit Web Interface
+**Learning Focus:** Rapid prototyping of AI applications  
 **Implementation:**
-- Responsive, professional-looking interface
-- Support for switching between custom and framework backends
-- Performance comparison display
-- Clear presentation of results with citations
-- Example queries showcasing both implementation approaches
+- Simple, functional interface using Streamlit components
+- Support for real-time query processing
+- Built-in charts and visualizations for performance metrics
+- Easy deployment and sharing capabilities
+- Foundation for understanding AI interface requirements before building advanced frontend
 
 #### F-004: Comparative Documentation
 **Learning Focus:** Technical decision-making and engineering judgment  
@@ -155,10 +156,10 @@ Build a personal learning project that demonstrates AI/ML skills while creating 
 - **LangGraph:** Evaluation for workflow orchestration (Phase 2)
 
 #### Frontend Stack:
-- **React + TypeScript:** Modern frontend development
-- **Tailwind CSS:** Rapid UI development
-- **Vite:** Fast build tool
-- **React Query:** Data fetching and state management
+- **Phase 1:** Streamlit for rapid prototyping and MVP
+- **Phase 2:** React + TypeScript for production frontend
+- **Styling:** Streamlit built-in components, later Tailwind CSS
+- **Rationale:** Focus on core Graph RAG implementation first
 
 #### Infrastructure:
 - **Railway/Render:** Easy deployment for personal projects
@@ -203,7 +204,27 @@ Build a personal learning project that demonstrates AI/ML skills while creating 
 - Create comprehensive documentation of technical choices
 - Prepare comparative analysis for portfolio presentation
 
-### 5.4 Decision Framework
+### 5.5 Phased Frontend Strategy
+
+#### Phase 1: Streamlit MVP (Months 1-3)
+**Objective:** Rapid prototyping and core functionality focus
+- Use Streamlit for immediate UI without frontend complexity
+- Enable quick iteration on Graph RAG features
+- Create functional demo for portfolio and testing
+- Focus learning on AI/ML components rather than frontend frameworks
+
+#### Phase 2: Advanced Frontend (Month 4+)
+**Objective:** Professional, production-ready interface
+- Migrate to React + TypeScript for advanced UI
+- Implement custom components and interactions
+- Add advanced features like real-time updates, complex visualizations
+- Demonstrate full-stack development capabilities
+
+#### Rationale:
+- **Learning Focus:** Streamlit allows concentration on Graph RAG implementation
+- **Speed:** Faster to demonstrate core value proposition
+- **Portfolio Value:** Shows pragmatic technical decision-making
+- **Risk Mitigation:** Reduces complexity in initial phases
 
 Criteria for adopting framework components:
 - **Time Savings:** Does it significantly reduce development time?
@@ -241,10 +262,11 @@ Criteria for adopting framework components:
 - Test with sample queries
 - Document custom implementation challenges and solutions
 
-**Week 7-8: Frontend Development + Framework Research**
-- Build React frontend supporting both implementations
+**Week 7-8: Streamlit Interface Development + Framework Research**
+- Build Streamlit interface for query processing
+- Create data visualization components for performance metrics
 - Evaluate LangChain document loaders vs. custom implementation
-- Research LangGraph workflow orchestration capabilities
+- Research React/Next.js for Phase 2 advanced frontend
 - Document trade-offs and initial framework assessment
 
 #### Month 3: Framework Integration & Comparison
@@ -287,10 +309,10 @@ Criteria for adopting framework components:
 
 | Item | Monthly Cost | 4-Month Total |
 |------|--------------|---------------|
-| Railway/Render Hosting | $5-10 | $20-40 |
+| Streamlit Cloud Hosting | $0-20 | $0-80 |
 | OpenAI API Credits | $30-60* | $120-240 |
 | Domain Name (optional) | $12/year | $12 |
-| **Total Project Cost** | **~$47-82** | **~$152-292** |
+| **Total Project Cost** | **~$42-92** | **~$132-332** |
 
 *Slightly higher due to comparative testing
 
